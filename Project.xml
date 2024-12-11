@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Esqueci o nome do mod" file="EONDM" packageName="com.miniraposa.esqueci" package="com.miniraposa.esqueci" main="Main" version="6.6.6" company="MiniRaposa" />
+	<app title="Friday Night Funkin': Mythical Creatures" file="MythicalCreatures" packageName="com.miniraposa.mythical" package="com.miniraposa.mythical" main="Main" version="6.6.6" company="MiniRaposa" />
 
 	<!-- NOTE TO SELF: DISABLE THIS IF ISSUES ARE FOUND -->
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
