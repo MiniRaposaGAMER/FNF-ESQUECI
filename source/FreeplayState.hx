@@ -324,7 +324,7 @@ class FreeplayState extends MusicBeatState
                 {
                         destroyFreeplayVocals();
                         FlxG.sound.music.volume = 0;
-                        Mods.currentModDirectory = songs[curSelected].folder;
+			Paths.currentModDirectory = songs[curSelected].folder;
                         var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
                         PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
                         FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 0);
